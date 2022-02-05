@@ -55,3 +55,11 @@ p {
     padding-left: 11px;
   }
 }
+
+@media (max-width: 300px) {
+  .content .titulo span {
+    display: grid;
+    justify-content: center;
+    padding: 0;
+  }
+}
