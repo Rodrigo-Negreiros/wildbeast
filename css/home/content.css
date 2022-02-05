@@ -1,0 +1,57 @@
+/*CONTENT*/
+
+.content {
+  grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+
+.col-wide {
+  grid-column: 1 / -1;
+}
+
+.imagem-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.item-2 {
+  align-self: end;
+}
+
+/*ESTILOS CONTENT*/
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.informacoes p + p {
+  margin-top: 30px;
+}
+
+@media (max-width: 420px) {
+  .content .titulo {
+    font-size: 1.075em;
+  }
+  .content .titulo h1 {
+    text-align: center;
+  }
+  .content .titulo span {
+    display: block;
+    text-align: start;
+    padding-left: 11px;
+  }
+}

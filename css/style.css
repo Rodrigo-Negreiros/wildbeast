@@ -1,0 +1,7 @@
+@import "./global/global.css";
+@import "./home/header.css";
+@import "./home/sidenav.css";
+@import "./home/content.css";
+@import "./home/titulo-caracteristicas.css";
+@import "./home/anuncios.css";
+@import "./home/footer.css";
